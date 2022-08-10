@@ -1,0 +1,2 @@
+def closest_multiple
+end

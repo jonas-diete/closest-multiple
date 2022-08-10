@@ -12,4 +12,8 @@ describe 'closest_multiple' do
   it 'returns 30 when passed 34' do
     expect(closest_multiple(34)).to eq 30
   end
+
+  it 'returns 120 when passed 121' do
+    expect(closest_multiple(121)).to eq 120
+  end
 end

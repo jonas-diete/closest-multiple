@@ -1,9 +1,6 @@
 def closest_multiple(number)
-  if number == 17
-    return 20
-  elsif number == 34
-    return 30
-  else
-    return 70
+  last_digit = number.to_s[-1]
+  if  last_digit.to_i < 5
+    return number - last_digit.to_i
   end
 end
